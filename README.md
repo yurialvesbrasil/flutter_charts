@@ -1,4 +1,4 @@
-# flutter_silver_bar
+# Flutter_Charts
 
 A new Flutter application.
 
