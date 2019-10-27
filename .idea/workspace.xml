@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc032a5c-cc69-4b48-889b-ba7676c12d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/enums/view_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/view_models/base_view_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/view_models/home_view_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/route_generator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/screens/bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/values/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/app_custom_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/custom_clip_path_down.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/list_charts_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/widgets/list_item_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/br/gov/pa/pessoal/mobile/flutter/flutter_silver_bar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/br/gov/pa/pessoal/mobile/flutter/flutter_silver_bar/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/custom_rounded_bars.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/custom_rounded_bars.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_bar_single_target_line_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_single_target_line_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_bar_target_line_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_target_line_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_fill_color_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_fill_color_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_stacked_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_stacked_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/grouped_stacked_weight_pattern_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/grouped_stacked_weight_pattern_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/horizontal_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/horizontal_bar_label_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_label_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/horizontal_bar_label_custom_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_label_custom_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/horizontal_pattern_forward_hatch_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/horizontal_pattern_forward_hatch_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/pattern_forward_hatch_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/pattern_forward_hatch_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/simple_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/simple_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/spark_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/spark_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/stacked_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/stacked_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/stacked_bar_target_line_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/stacked_bar_target_line_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/stacked_fill_color_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/stacked_fill_color_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/stacked_horizontal_bar_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/stacked_horizontal_bar_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/charts/vertical_bar_label_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/charts/bar/vertical_bar_label_chart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/values/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/values/styles.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="ce081608db9ee71d05" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/screens/bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/widgets/list_charts_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/widgets/list_item_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/core/enums/view_state.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/widgets/drawer.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/values/styles.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/ui/widgets/app_custom_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>blue</find>
+      <find>red</find>
+      <find>_createSampleData</find>
+      <find>orientation</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/values/styles.dart" />
+        <option value="$PROJECT_DIR$/lib/core/models/data_info_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/SimpleBarChart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_stacked_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/stacked_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_bar_target_line_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_bar_single_target_line_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/stacked_bar_target_line_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/vertical_bar_label_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/simple_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/horizontal_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/horizontal_bar_label_custom_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/horizontal_bar_label_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/stacked_horizontal_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/spark_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_fill_color_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/stacked_fill_color_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/pattern_forward_hatch_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/horizontal_pattern_forward_hatch_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/grouped_stacked_weight_pattern_bar_chart.dart" />
+        <option value="$PROJECT_DIR$/lib/core/charts/custom_rounded_bars.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/route_generator.dart" />
+        <option value="$PROJECT_DIR$/android/app/src/main/java/br/gov/pa/pessoal/mobile/flutter/flutter_silver_bar/MainActivity.java" />
+        <option value="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" />
+        <option value="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/drawer_header.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/values/routes.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/custom_clip_path_down.dart" />
+        <option value="$PROJECT_DIR$/lib/core/view_models/base_view_model.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/core/view_models/home_view_model.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/values/styles.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/list_item_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/list_charts_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/screens/bar.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/drawer.dart" />
+        <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/lib/ui/widgets/app_custom_bar.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="carrosel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_silver_bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_silver_bar" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/core" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\lib\core\charts\bar" />
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\lib\ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\lib\core" />
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\android\app\src\main\res\values" />
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\assets\icons" />
+      <recent name="E:\ProjetosFlutter\GitLabYuriProdepa\flutter_silver_bar\lib\ui" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" singleton="false">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc032a5c-cc69-4b48-889b-ba7676c12d60" name="Default Changelist" comment="" />
+      <created>1572119050480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572119050480</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17857143" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32719395" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32936078" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/core/charts/bar/simple_bar_chart.dart</url>
+          <line>88</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/core/models/data_info_chart.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_single_target_line_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_stacked_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#112#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/stacked_bar_target_line_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#8134#0" expanded="true" />
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/stacked_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="66" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/vertical_bar_label_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#3589#0" expanded="true" />
+            <element signature="e#91#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/charts_common-0.8.1/lib/src/common/color.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/charts_common-0.8.1/lib/src/common/palette.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/charts_common-0.8.1/lib/src/data/series.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+          <folding>
+            <element signature="e#68#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_label_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="e#116#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/horizontal_bar_label_custom_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#4502#0" expanded="true" />
+            <element signature="e#111#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/stacked_horizontal_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="64" column="74" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/spark_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#4154#0" expanded="true" />
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_fill_color_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#5576#0" expanded="true" />
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/stacked_fill_color_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#5576#0" expanded="true" />
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/pattern_forward_hatch_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#4568#0" expanded="true" />
+            <element signature="e#191#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/horizontal_pattern_forward_hatch_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#4706#0" expanded="true" />
+            <element signature="e#79#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_stacked_weight_pattern_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#7935#0" expanded="true" />
+            <element signature="e#308#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/custom_rounded_bars.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#2871#0" expanded="true" />
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/ui/route_generator.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/simple_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#56#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_target_line_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="81" column="63" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="63" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/drawer_header.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/ui/values/routes.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/src/flutter/packages/flutter/lib/src/painting/image_provider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="448" column="13" selection-start-line="448" selection-start-column="13" selection-end-line="448" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/src/flutter/packages/flutter/lib/src/material/text_theme.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/custom_clip_path_down.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/charts/bar/grouped_bar_chart.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#57#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/br/gov/pa/pessoal/mobile/flutter/flutter_silver_bar/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/enums/view_state.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/view_models/base_view_model.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/view_models/home_view_model.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#2#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/values/styles.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/drawer.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/list_item_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/list_charts_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/screens/bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/widgets/app_custom_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
