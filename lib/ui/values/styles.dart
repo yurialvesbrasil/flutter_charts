@@ -6,12 +6,12 @@ ThemeData themeApp = ThemeData(
   accentColor: Colors.red[200],
   canvasColor: Colors.transparent,
   textTheme: TextTheme(
-    display1: TextStyle(
+    displayMedium: TextStyle(
       color: Colors.grey[600],
       fontSize: 14.0,
       fontWeight: FontWeight.bold,
     ),
-    headline: TextStyle(
+    headlineMedium: TextStyle(
       color: Colors.grey[600],
       fontSize: 16.0,
       fontWeight: FontWeight.bold,

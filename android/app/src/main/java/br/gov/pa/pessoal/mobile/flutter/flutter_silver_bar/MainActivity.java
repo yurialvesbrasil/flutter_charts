@@ -1,10 +1,8 @@
 package br.gov.pa.pessoal.mobile.flutter.flutter_silver_bar;
 
-import android.os.Bundle;
-import io.flutter.app.FlutterActivity;
-import io.flutter.plugins.GeneratedPluginRegistrant;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
+import io.flutter.embedding.android.FlutterActivity;
 
 public class MainActivity extends FlutterActivity {
   @Override

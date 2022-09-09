@@ -12,14 +12,12 @@ class AppDrawer extends StatelessWidget {
           color: Colors.red[500],
           borderRadius: const BorderRadius.only(topRight: Radius.circular(28)),
         ),
-        child: Stack(children: <Widget>[
-          Positioned(
-            bottom: 12.0,
-            left: 16.0,
-            child: Text("Flutter Step-by-Step",
-                style: Theme.of(context).textTheme.headline),
-          ),
-        ]));
+        child: Positioned(
+          bottom: 12.0,
+          left: 16.0,
+          child: Text("Flutter Step-by-Step",
+              style: Theme.of(context).textTheme.headlineMedium),
+        ));
   }
 
   Widget _createDrawerItem(
